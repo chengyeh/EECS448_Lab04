@@ -1,0 +1,160 @@
+body#frontEnd
+{
+	background: url('store_wallpaper.jpg') fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body#backEnd
+{
+	background: url('back_end_wallpaper.jpg') fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1#storeHeader
+{
+	text-align: center;
+	color: #f7e7ce;
+}
+
+div#backEndHeader
+{
+	color: #f7e7ce;
+}
+
+input#name, input#password
+{
+	width: 125px;
+	padding: 2px;
+}
+
+input[type=number]
+{
+	width: 100%;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+input.method
+{
+ 	vertical-align: middle;
+}
+
+label
+{
+	display: inline-block;
+	width: 90px;
+	margin-bottom: 10px; 
+}
+
+table#cart 
+{
+	border-collapse:collapse;
+	border: 2px solid #bfbfbf;
+	width: 100%;
+}
+
+table#cart th 
+{
+	border: 1px solid #bfbfbf;
+	background-color: #333333;
+	color: white;
+}
+
+table#cart td
+{
+	border: 1px solid #bfbfbf;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 3px;
+}
+
+table#shippingMethod
+{
+	border-collapse:collapse;
+	border: 2px solid #bfbfbf;
+	width: 30%;
+}
+
+th.title
+{
+	background-color: #333333;
+	color: white;
+}
+
+table#shippingMethod td
+{
+	background-color: #f2f2f2;
+	padding: 3px;
+}
+
+table#customerLogin
+{
+	border-collapse:collapse;
+	border: 2px solid #bfbfbf;	
+	width: 20%;
+}
+
+table#customerLogin td
+{
+	background-color: #f2f2f2;
+	padding: 3px;
+}
+
+table#receipt
+{
+	border-collapse:collapse;
+	border: 2px solid #bfbfbf;
+	width: 100%;
+}
+
+table#receipt th 
+{
+	border: 1px solid #bfbfbf;
+	background-color: #333333;
+	color: white;
+}
+
+table#receipt td
+{
+	border: 1px solid #bfbfbf;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 3px;
+}
+
+table#receipt caption
+{
+	color: #f7e7ce !important;
+	font-weight: bold; 
+}
+
+td.pic
+{
+	background-color: white !important;
+}
+
+button
+{
+	background-color: #333333;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	border: 2px solid #bfbfbf;
+	width: 160px;
+	padding: 8px 27px;
+	border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}

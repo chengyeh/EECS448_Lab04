@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab4 - Web Store</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body id="frontEnd">
+		<h1 id="storeHeader">Dom Perignon - the best champagne in the world</h1>
+		<form action="customerBackend.php" method="post" onsubmit="return validateForm()">
+			<table id="customerLogin">
+				<tr>
+					<th class="title">CUSTOMER LOGIN<br><br></th>
+				</tr>
+				<tr>
+					<td><br><label for="name">User name:</label><input id="name" type="text" name="userName"/></td>
+				</tr>
+				<tr>
+					<td><label for="password">Password:</label><input id="password" type="password" name="userPassword"/><br><br></td>
+				</tr>				
+			</table>
+			<br><br>
+			<table id="cart">
+				<tr>
+					<th colspan="2"><br><br></th>
+					<th>QUANTITY</th>
+					<th>COST</th>
+				</tr>
+				<tr>
+					<td class="pic"><img src="img/dom_perignon_2006.png" height="102" width="101"></td>
+					<td><b>Dom Perignon with Gift Box 2006</b></td>
+					<td><input class="itemQuantity" type="number" name="2006"/></td>
+					<td>$ 189.99</td>
+				</tr>				
+				<tr>
+					<td class="pic"><img src="img/dom_perignon_2004.png" height="102" width="101"></td>
+					<td><b>Dom Perignon Rose Ltd. Edition 2004</b></td>
+					<td><input class="itemQuantity" type="number" name="2004"/></td>
+					<td>$ 349.00</td>
+				</tr>				
+				<tr>
+					<td class="pic"><img src="img/dom_perignon_1996.png" height="102" width="101"></td>
+					<td><b>Dom Perignon Oenotheque 1996</b></td>
+					<td><input class="itemQuantity" type="number" name="1996"/></td>
+					<td>$ 429.00</td>
+				</tr>
+			</table>
+			<br><br>	
+			<table id="shippingMethod">	
+				<tr>
+					<th class="title">SHIPPING METHOD<br><br></th>
+				</tr>
+				<tr>
+					<td><br>&nbsp;7 Day</td>
+				</tr>
+				<tr>
+					<td><input class="method" type="radio" name="shipping" value="7 Day"/> <b>Free</b></td>
+				</tr>
+				<tr>
+					<td>&nbsp;3 Day</td>
+				</tr>
+				<tr>
+					<td><input class="method" type="radio" name="shipping" value="3 Day"/> <b>$ 5.00</b></td>
+				</tr>
+				<tr>
+					<td>&nbsp;Overnight</td>
+				</tr>
+				<tr>
+					<td><input class="method" type="radio" name="shipping" value="Overnight"/> <b>$ 50.00</b><br><br></td>
+				</tr>
+			</table>
+			<button type="submit" value="Place Order">PLACE ORDER</button>
+			<button type="reset" value="Reset">RESET</button>
+		</form>
+		
+		<script type="text/javascript" src="js/formChecker.js"></script>
+	</body>
+</html>
