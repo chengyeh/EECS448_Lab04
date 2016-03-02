@@ -65,7 +65,9 @@
 			<p><b>thank you for your purchase.</b><br>we're processing your order.<br><br></p>
 		</div>
 		<table id="receipt">
-			<caption>ORDER SUMMARY<br><br></caption>
+			<tr>
+				<th colspan="5">ORDER SUMMARY</th>
+			</tr>
 			<tr>
 				<th colspan="2"><br><br></th>
 				<th>QUANTITY</th>

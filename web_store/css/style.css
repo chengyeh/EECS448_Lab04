@@ -132,12 +132,6 @@ table#receipt td
 	padding: 3px;
 }
 
-table#receipt caption
-{
-	color: #f7e7ce !important;
-	font-weight: bold; 
-}
-
 td.pic
 {
 	background-color: white !important;
